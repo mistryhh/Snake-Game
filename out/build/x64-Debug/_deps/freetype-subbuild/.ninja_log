@@ -1,0 +1,21 @@
+# ninja log v6
+7	109	7942934248568257	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	1a4ada07293b2a94
+7	109	7942934248568257	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	1a4ada07293b2a94
+110	11031	7942934357773343	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	b2386a76f4b921d6
+110	11031	7942934357773343	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	b2386a76f4b921d6
+11032	11327	7942934357903345	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	fc482ce5cf1a8f7d
+11032	11327	7942934357903345	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	fc482ce5cf1a8f7d
+11327	11476	7942934362222549	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	610336b6fd255f4b
+11327	11476	7942934362222549	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	610336b6fd255f4b
+11477	11620	7942934363647327	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	f586abb58a95dfba
+11477	11620	7942934363647327	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	f586abb58a95dfba
+11621	11736	7942934364841360	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	e42efec39a0b0f3c
+11621	11736	7942934364841360	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	e42efec39a0b0f3c
+11737	11864	7942934366084302	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	6da1bda7e932ae16
+11737	11864	7942934366084302	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	6da1bda7e932ae16
+11865	11992	7942934367349812	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	1ace12271541344c
+11865	11992	7942934367349812	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	1ace12271541344c
+11993	12147	7942934368956013	CMakeFiles/freetype-populate-complete	e812adeec61ebfbd
+11993	12147	7942934368956013	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	e812adeec61ebfbd
+11993	12147	7942934368956013	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	e812adeec61ebfbd
+11993	12147	7942934368956013	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	e812adeec61ebfbd

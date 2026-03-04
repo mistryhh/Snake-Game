@@ -1,0 +1,21 @@
+# ninja log v6
+7	155	7942934101458041	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	82acbfa33dd5a136
+7	155	7942934101458041	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	82acbfa33dd5a136
+157	11928	7942934219153575	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	125e394975fe8ec6
+157	11928	7942934219153575	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	125e394975fe8ec6
+11929	12184	7942934219311093	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	b439cd09b35de613
+11929	12184	7942934219311093	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	b439cd09b35de613
+12199	12302	7942934222981349	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	6a6456c8853fb92
+12199	12302	7942934222981349	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	6a6456c8853fb92
+12303	12411	7942934223944114	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	f45d01372cf0ba80
+12303	12411	7942934223944114	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	f45d01372cf0ba80
+12412	12526	7942934225205148	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	9f0ae9d556af6220
+12412	12526	7942934225205148	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	9f0ae9d556af6220
+12526	12633	7942934226156749	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e2b5280ffabd0eb1
+12526	12633	7942934226156749	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e2b5280ffabd0eb1
+12633	12739	7942934227265377	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	de3c2f03a1edcf8c
+12633	12739	7942934227265377	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	de3c2f03a1edcf8c
+12740	12880	7942934228698864	CMakeFiles/sfml-populate-complete	b09b5a74ea236725
+12740	12880	7942934228698864	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	b09b5a74ea236725
+12740	12880	7942934228698864	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	b09b5a74ea236725
+12740	12880	7942934228698864	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	b09b5a74ea236725

@@ -1,0 +1,21 @@
+# ninja log v6
+11	136	7942934375940565	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	1269910cd98ea64c
+11	136	7942934375940565	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	1269910cd98ea64c
+137	2914	7942934403762693	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	fe853979d290d705
+137	2914	7942934403762693	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	fe853979d290d705
+2914	3167	7942934403858953	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	59dee403452c3325
+2914	3167	7942934403858953	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	59dee403452c3325
+3183	3296	7942934407572206	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	fd23d2fd55d259d7
+3183	3296	7942934407572206	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	fd23d2fd55d259d7
+3296	3421	7942934408812257	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	4150e0dd3d182400
+3296	3421	7942934408812257	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	4150e0dd3d182400
+3421	3533	7942934409907940	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	9c691509c073f06
+3421	3533	7942934409907940	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	9c691509c073f06
+3533	3637	7942934410987372	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b4d33c7dbd3f74a7
+3533	3637	7942934410987372	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b4d33c7dbd3f74a7
+3638	3740	7942934412009493	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	da03c40ab3cb6372
+3638	3740	7942934412009493	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	da03c40ab3cb6372
+3741	3888	7942934413485728	CMakeFiles/ogg-populate-complete	9ae6ce11ae4b129c
+3741	3888	7942934413485728	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	9ae6ce11ae4b129c
+3741	3888	7942934413485728	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	9ae6ce11ae4b129c
+3741	3888	7942934413485728	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	9ae6ce11ae4b129c

@@ -1,0 +1,21 @@
+# ninja log v6
+7	118	7942934714551678	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	97a5c240b317f437
+7	118	7942934714551678	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	97a5c240b317f437
+119	4298	7942934756375525	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	24a7d94d15bedfab
+119	4298	7942934756375525	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	24a7d94d15bedfab
+4299	4548	7942934756503249	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	97f9261c03879e74
+4299	4548	7942934756503249	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	97f9261c03879e74
+4563	4696	7942934760335748	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	6a55bb186b973336
+4563	4696	7942934760335748	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	6a55bb186b973336
+4696	4801	7942934761326716	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	16a5d39648fb4a8d
+4696	4801	7942934761326716	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	16a5d39648fb4a8d
+4802	4906	7942934762401028	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	a9ccb571f6f50f2d
+4802	4906	7942934762401028	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	a9ccb571f6f50f2d
+4907	5011	7942934763391267	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	95c9328e1dbf61e7
+4907	5011	7942934763391267	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	95c9328e1dbf61e7
+5012	5112	7942934764509780	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	2ac37dfb5e941384
+5012	5112	7942934764509780	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	2ac37dfb5e941384
+5113	5254	7942934765932621	CMakeFiles/vorbis-populate-complete	b96b3d33a7b822a3
+5113	5254	7942934765932621	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b96b3d33a7b822a3
+5113	5254	7942934765932621	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	b96b3d33a7b822a3
+5113	5254	7942934765932621	C:/Users/dencr/Snake-Game/out/build/x64-Debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b96b3d33a7b822a3
