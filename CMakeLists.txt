@@ -21,3 +21,5 @@ target_include_directories(SnakeGame PRIVATE include)
 
 # Link SFML libraries to our game
 target_link_libraries(SnakeGame PRIVATE SFML::Graphics SFML::Window SFML::System)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

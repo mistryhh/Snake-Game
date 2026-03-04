@@ -29,7 +29,7 @@
 2558	2826	7942935010038849	_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj	1ec9d727774aa690
 1516	3226	7942934999620596	_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj	1c28e907bff4f86e
 4728	5323	7942935031741227	_deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj	786debeba2116083
-170	1939	7943636055693634	CMakeFiles/SnakeGame.dir/src/Snake.cpp.obj	df57e962e744a3b9
+121	1349	7943694216040395	CMakeFiles/SnakeGame.dir/src/Snake.cpp.obj	df57e962e744a3b9
 252	3322	7942934986885791	_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj	8002d5a1da7a9057
 145	3494	7942934985893239	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj	bc9e3e7e3b505f05
 238	3520	7942934986725441	_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj	50d25317fc3812fb
@@ -108,13 +108,11 @@
 7075	10124	7942935055214953	_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj	893c11b95615ecff
 7858	10299	7942935063026421	_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj	daaab7d71d749d44
 7820	10465	7942935062649110	_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.obj	d3318ef04a24d04d
-179	2392	7943624345626890	CMakeFiles/SnakeGame.dir/src/main.cpp.obj	675bd8500a11ae42
+119	1389	7943713674073869	CMakeFiles/SnakeGame.dir/src/main.cpp.obj	675bd8500a11ae42
 7843	10732	7942935062897945	_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj	2f5e482895e4de42
 10732	10871	7942935091767175	_deps/sfml-build/lib/sfml-graphics-s-d.lib	cb424721a89f888e
-1941	2299	7943636073481037	SnakeGame.exe	69d6c29ddbf09952
-179	2016	7943632658030660	CMakeFiles/SnakeGame.dir/src/Game.cpp.obj	5ae802fb8bd82f48
-121	1349	7943694216040395	CMakeFiles/SnakeGame.dir/src/Snake.cpp.obj	df57e962e744a3b9
-106	1380	7943694215947325	CMakeFiles/SnakeGame.dir/src/main.cpp.obj	675bd8500a11ae42
+1025	1212	7943714739869201	SnakeGame.exe	a105386e483a7f88
+96	1024	7943714730579884	CMakeFiles/SnakeGame.dir/src/Game.cpp.obj	5ae802fb8bd82f48
 126	1384	7943694216133820	CMakeFiles/SnakeGame.dir/src/Apple.cpp.obj	242f2f48c77d177a
-114	1392	7943694216010559	CMakeFiles/SnakeGame.dir/src/Game.cpp.obj	5ae802fb8bd82f48
-1392	1686	7943694228806236	SnakeGame.exe	a105386e483a7f88
+102	999	7943716011987542	CMakeFiles/SnakeGame.dir/src/Game.cpp.obj	5ae802fb8bd82f48
+1000	1202	7943716020925011	SnakeGame.exe	a105386e483a7f88
