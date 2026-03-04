@@ -14,7 +14,7 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 # Tell CMake where our source files are
-add_executable(SnakeGame src/main.cpp)
+add_executable(SnakeGame src/main.cpp src/Game.cpp)
 
 # Tell CMake where our header files are
 target_include_directories(SnakeGame PRIVATE include)

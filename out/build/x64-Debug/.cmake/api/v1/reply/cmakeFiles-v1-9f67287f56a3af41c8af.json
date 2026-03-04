@@ -852,10 +852,6 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x64-Debug/_deps/flac-src/cmake/CheckCPUArch.c.in"
-		},
-		{
-			"isGenerated" : true,
 			"path" : "out/build/x64-Debug/_deps/flac-src/microbench/CMakeLists.txt"
 		},
 		{
