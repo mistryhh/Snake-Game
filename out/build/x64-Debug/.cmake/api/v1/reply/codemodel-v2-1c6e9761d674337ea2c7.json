@@ -409,7 +409,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SnakeGame::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SnakeGame-Debug-3df9dc310017ef9d7fc9.json",
+					"jsonFile" : "target-SnakeGame-Debug-eb239a9dcbca01f0246d.json",
 					"name" : "SnakeGame",
 					"projectIndex" : 0
 				},
@@ -430,7 +430,7 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "sfml-audio::@a153e5727587c53fce98",
-					"jsonFile" : "target-sfml-audio-Debug-f837de1250b88cca2135.json",
+					"jsonFile" : "target-sfml-audio-Debug-b027009bee43a275988d.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},

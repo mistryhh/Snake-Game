@@ -32,7 +32,7 @@ void Game::update() {
 
 void Game::render() {
 	// Clear the old frame
-	m_window.clear(sf::Color::Green);
+	m_window.clear(sf::Color::Black);
 
 	// Draw the new frame
 

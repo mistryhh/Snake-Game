@@ -112,3 +112,6 @@
 10732	10871	7942935091767175	_deps/sfml-build/lib/sfml-graphics-s-d.lib	cb424721a89f888e
 910	1301	7943481596659352	SnakeGame.exe	2e67c30f3ce39dc1
 98	910	7943481588539200	CMakeFiles/SnakeGame.dir/src/Game.cpp.obj	5ae802fb8bd82f48
+153	2193	7943517446391964	CMakeFiles/SnakeGame.dir/src/Game.cpp.obj	5ae802fb8bd82f48
+165	2220	7943517446570827	CMakeFiles/SnakeGame.dir/src/Snake.cpp.obj	df57e962e744a3b9
+2221	2718	7943517467136287	SnakeGame.exe	69d6c29ddbf09952
