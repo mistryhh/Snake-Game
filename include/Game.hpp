@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "Snake.hpp"
+#include "Apple.hpp"
 
 class Game {
 public:
@@ -19,8 +20,9 @@ private:
 	// Member variables
 	sf::RenderWindow m_window;
 
-	// Instantiate the Snake
+	
 	Snake m_snake;
+	Apple m_apple;
 
 	// Timing variables to control snake speed
 	sf::Clock m_clock;

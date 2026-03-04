@@ -95,3 +95,13 @@ void Snake::reset() {
 	// Stop moving 
 	m_direction = Direction::None;
 }
+
+// Return the coordinate of the head
+sf::Vector2i Snake::getHead() const {
+	return m_body.front();
+}
+
+// Grow the snake by duplicating the tail segment
+void Snake::grow() {
+	m_body.push_back(m_body.back());
+}

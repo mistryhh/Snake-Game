@@ -22,6 +22,9 @@ public:
 	// Functions to handle death and restarting
 	bool checkCollision(int gridWidth, int gridHeight);
 	void reset();
+
+	sf::Vector2i getHead() const;
+	void grow();
 private:
 	int m_blockSize;
 	Direction m_direction;

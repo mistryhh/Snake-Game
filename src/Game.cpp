@@ -4,6 +4,7 @@
 Game::Game()
 	: m_window(sf::VideoMode({ 800, 600 }), "SFML Snake Game"),
 	m_snake(20),
+	m_apple(20, 40, 30),
 	m_timer(0.0f),
 	m_delay(0.1f)
 {
@@ -53,12 +54,22 @@ void Game::update() {
 	if(m_timer > m_delay) {
 		m_timer = 0.0f; // Reset the time
 		m_snake.move(); // Move the snake one block
+
+		// Did the snake's head land on the apple?
+		if (m_snake.getHead() == m_apple.getPosition()) {
+			m_snake.grow();    // Make the snake longer
+			m_apple.spawn();   // Teleport the apple to a new random spot
+		}
+
+		// Check for collisions right after moving the snake
+		if (m_snake.checkCollision(40, 30)) {
+			m_snake.reset(); // Reset the snake to the starting position
+		}
+
+
 	}
 
-	// Check for collisions right after moving the snake
-	if (m_snake.checkCollision(40, 30)) {
-		m_snake.reset(); // Reset the snake to the starting position
-	}
+	
 }
 
 void Game::render() {
@@ -67,6 +78,7 @@ void Game::render() {
 
 	// Draw the new frame
 	m_snake.render(m_window);
+	m_apple.render(m_window);
 
 	// Display it in the window
 	m_window.display();
