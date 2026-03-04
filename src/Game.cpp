@@ -54,6 +54,11 @@ void Game::update() {
 		m_timer = 0.0f; // Reset the time
 		m_snake.move(); // Move the snake one block
 	}
+
+	// Check for collisions right after moving the snake
+	if (m_snake.checkCollision(40, 30)) {
+		m_snake.reset(); // Reset the snake to the starting position
+	}
 }
 
 void Game::render() {

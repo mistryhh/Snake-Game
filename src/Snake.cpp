@@ -35,16 +35,16 @@ void Snake::move() {
 
 	// Calculate the new head position based on direction
 	if (m_direction == Direction::Up) {
-		newHead.y -= 1;
+		newHead.y -= 1; 
 	}
 	if (m_direction == Direction::Down) {
-		newHead.y -= 1;
+		newHead.y += 1; 
 	}
 	if (m_direction == Direction::Left) {
-		newHead.y -= 1;
+		newHead.x -= 1; 
 	}
 	if (m_direction == Direction::Right) {
-		newHead.y -= 1;
+		newHead.x += 1; 
 	}
 
 	// Add the new head to the front of the vector
@@ -65,4 +65,33 @@ void Snake::render(sf::RenderWindow& window) {
 		segement.setPosition(sf::Vector2f(part.x * m_blockSize, part.y * m_blockSize));
 		window.draw(segement);
 	}
+}
+
+bool Snake::checkCollision(int gridWidth, int gridHeight) {
+	
+	sf::Vector2i head = m_body.front();
+
+	// Check for wall collision
+	if (head.x < 0 || head.x >= gridWidth || head.y < 0 || head.y >= gridHeight) {
+		return true;
+	}
+	// Check for self collision
+	for (size_t i = 1; i < m_body.size(); i++) {
+		if(head.x == m_body[i].x && head.y == m_body[i].y) {
+			return true;
+		}
+	}
+	// No collision detected
+	return false;
+}
+void Snake::reset() {
+	// Empty the current body
+	m_body.clear();
+	// Rebuild the Snake
+	m_body.push_back({ 20, 15 }); // Head
+	m_body.push_back({ 20, 16 }); // Body
+	m_body.push_back({ 20, 17 }); // Tail
+
+	// Stop moving 
+	m_direction = Direction::None;
 }

@@ -18,6 +18,10 @@ public:
 	void setDirection(Direction newDirection);
 	void move();
 	void render(sf::RenderWindow& window);
+
+	// Functions to handle death and restarting
+	bool checkCollision(int gridWidth, int gridHeight);
+	void reset();
 private:
 	int m_blockSize;
 	Direction m_direction;
