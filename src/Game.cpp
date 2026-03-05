@@ -3,7 +3,7 @@
 
 // Constructor: Initialize the game window
 Game::Game()
-	: m_window(sf::VideoMode({ 800, 600 }), "Snake Game"),
+	: m_window(sf::VideoMode({ 1300, 800 }), "Snake Game"),
 	m_snake(20),
 	m_apple(20, 40, 30),
 	m_timer(0.0f),
@@ -49,7 +49,7 @@ void Game::initText() {
 	m_menuText.setFont(m_font);
 	m_menuText.setCharacterSize(36);
 	m_menuText.setFillColor(sf::Color::Green);
-	m_menuText.setPosition(sf::Vector2f(180.0f, 250.0f));
+	m_menuText.setPosition(sf::Vector2f(450.0f, 300.0f));
 	m_menuText.setString("SNAKE GAME\nHigh Score: " + std::to_string(m_highScore) + "\nPress ENTER to Start");
 }
 
@@ -131,7 +131,7 @@ void Game::update() {
 		}
 
 		// Check for collisions right after moving the snake
-		if (m_snake.checkCollision(40, 30)) {
+		if (m_snake.checkCollision(65, 40)) {
 			m_state = GameState::GameOver; // Trigger Game Over state
 			m_menuText.setString("GAME OVER!\nFinal Score: " + std::to_string(m_score) + "\nPress ENTER to Restart");
 		}
