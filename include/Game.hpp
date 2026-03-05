@@ -1,6 +1,8 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <string>
+#include <fstream>
+
 #include "Snake.hpp"
 #include "Apple.hpp"
 
@@ -23,8 +25,9 @@ private:
 	void processEvents();
 	void update();
 	void render();
-
 	void initText();
+	void loadHighScore();
+	void saveHighScore();
 
 	// Member variables
 	sf::RenderWindow m_window;
@@ -40,6 +43,8 @@ private:
 	// Variables to track the game state and score
 	GameState m_state;
 	int m_score;
+	int m_highScore;
+
 	sf::Font m_font;
 	sf::Text m_scoreText;
 	sf::Text m_menuText;

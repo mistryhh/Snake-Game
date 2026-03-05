@@ -9,11 +9,28 @@ Game::Game()
 	m_timer(0.0f),
 	m_delay(0.1f),
 	m_state(GameState::MainMenu), 
-	m_score(0),   
+	m_score(0),
+	m_highScore(0),
 	m_scoreText(m_font),         
 	m_menuText(m_font)
 {
+	loadHighScore();
 	initText();
+}
+
+void Game::loadHighScore() {
+	std::ifstream file("assets/highscore.txt");
+	if (file.is_open()) {
+		file >> m_highScore;
+		file.close();
+	}
+}
+void Game::saveHighScore() {
+	std::ofstream file("assets/highscore.txt");
+	if (file.is_open()) {
+		file << m_highScore;
+		file.close();
+	}
 }
 
 void Game::initText() {
@@ -33,7 +50,7 @@ void Game::initText() {
 	m_menuText.setCharacterSize(36);
 	m_menuText.setFillColor(sf::Color::Green);
 	m_menuText.setPosition(sf::Vector2f(180.0f, 250.0f));
-	m_menuText.setString("SNAKE GAME\nPress ENTER to Start");
+	m_menuText.setString("SNAKE GAME\nHigh Score: " + std::to_string(m_highScore) + "\nPress ENTER to Start");
 }
 
 
@@ -91,14 +108,26 @@ void Game::update() {
 		m_timer = 0.0f; // Reset the time
 		m_snake.move(); // Move the snake one block
 
-		// Did the snake's head land on the apple?
 		if (m_snake.getHead() == m_apple.getPosition()) {
-			m_snake.grow();    // Make the snake longer
-			m_apple.spawn();   // Teleport the apple to a new random spot
+			m_snake.grow();
+			m_apple.spawn();
 
-			// Increase score and update the UI string
 			m_score += 10;
 			m_scoreText.setString("Score: " + std::to_string(m_score));
+
+			// Update High Score in real-time if we beat it
+			if (m_score > m_highScore) {
+				m_highScore = m_score;
+			}
+		}
+		if (m_snake.checkCollision(40, 30)) {
+			saveHighScore(); // Save to the file when we die!
+
+			m_state = GameState::GameOver;
+			// NEW: Show both scores on the Game Over screen
+			m_menuText.setString("GAME OVER!\nScore: " + std::to_string(m_score) +
+				"\nHigh Score: " + std::to_string(m_highScore) +
+				"\nPress ENTER to Restart");
 		}
 
 		// Check for collisions right after moving the snake
